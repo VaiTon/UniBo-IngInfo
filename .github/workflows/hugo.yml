@@ -47,6 +47,9 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Setup Hugo modules
+        run: hugo mod get -u
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
