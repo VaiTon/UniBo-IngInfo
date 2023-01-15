@@ -1,0 +1,13 @@
+languageCode = 'it-IT'
+title = 'Ingegneria Informatica'
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+
+[params]
+BookTheme = 'auto'
+BookRepo = 'https://github.com/VaiTon/UniBo-IngInfo'
+
+[markup.goldmark.renderer]
+unsafe = true
