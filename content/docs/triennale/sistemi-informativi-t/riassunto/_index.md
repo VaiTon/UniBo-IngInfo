@@ -31,7 +31,7 @@ Modifica lo schema di una relazione, cambiando i nomi di uno o più attributi.
 
 ##### Esempio
 
-{{<katex>}}\rho\_{Nome=NomeCognome}(R){{</katex>}}
+{{<katex>}}\rho_{Nome=NomeCognome}(R){{</katex>}}
 
 #### Divisione [{{<katex>}}\div{{</katex>}}]
 
@@ -40,41 +40,39 @@ Modifica lo schema di una relazione, cambiando i nomi di uno o più attributi.
 
 E' utile per trovare **un attributo di tipo universale**.
 
-
-
 ##### Esempio
 
 _Le date in cui **tutte gli aerei** hanno volato_
 
 {{<columns>}}
 
-
-| Codice | Data          |
-|--------|---------------|
-| AZ427  | 21/07/2001    |
-| AZ427  | 23/07/2001    |
-| AZ427  | 24/07/2001    |
-| TW056  | 21/07/2001    |
-| TW056  | 24/07/2001    |
-| TW056  | 25/07/2001    |
+| Codice | Data       |
+| ------ | ---------- |
+| AZ427  | 21/07/2001 |
+| AZ427  | 23/07/2001 |
+| AZ427  | 24/07/2001 |
+| TW056  | 21/07/2001 |
+| TW056  | 24/07/2001 |
+| TW056  | 25/07/2001 |
 
 <--->
 
 | Codice |
-|--------|
+| ------ |
 | AZ427  |
 | TW056  |
 
 <--->
 
-| Data |
-|------|
-|21/07/2001|
-|24/07/2001|
+| Data       |
+| ---------- |
+| 21/07/2001 |
+| 24/07/2001 |
 
 {{</columns>}}
 
 #### Theta-Join
+
 Corrisponde al `JOIN` SQL che si usa di solito. Ovvero fa il prodotto cartesiano delle relazioni e poi applica il predicato.
 
 - **Schema:** Unione degli schemi delle relazioni coinvolte.
@@ -95,6 +93,7 @@ p := Aerei.Codice = Voli.CodiceAereo
 In generale, se confrontiamo con un valore (non nullo), allora `NULL != valore`, per qualsiasi valore.
 
 Se invece vogliamo confrontare con `NULL`, dobbiamo usare i seguenti operatori:
+
 - `IS NULL`
 - `IS NOT NULL`
 
@@ -110,7 +109,6 @@ In generale, due tuple che hanno null su attributi in comune, non vengono consid
 
 > **ATTENZIONE:** L'intersezione, **IN ASSENZA DI VALORI NULLI** può essere ottenuta con un join naturale. Al contrario, l'intersezione **IN PRESENZA DI VALORI NULLI** non può essere ottenuta con un join naturale, ma con la formula:
 > {{<katex>}}r_1 - (r_1 - r_2){{</katex>}}
-
 
 #### Outer Join
 
@@ -166,9 +164,7 @@ SECOND(orario)  -- restituisce il secondo
 
 Sui tipi **_time duration_** si possono utilizzare le funzioni `HOUR`, `MINUTE`, `SECOND`
 
-## Funzioni utili
-
-### Altre
+### Funzioni utili
 
 #### `DISTINCT`
 
@@ -303,13 +299,10 @@ CREATE [OR REPLACE] TRIGGER *NomeTrigger*
 
 ## Conversione Schema → SQL
 
-Modificare in DBeaver lo script in modo che sia compatibile con DB2, ossia:
+1. Generare il file SQL da DB-Main con il comando _Transform/Quick SQL_
+2. Modificare in DBeaver lo script in modo che sia compatibile con DB2, ossia:
+   1. Eliminare `CREATE DATABASE` e tutta la `Index Section`
+   2. Eliminare i `CHECK` complessi (cioè che hanno subquery)
+   3. Usare tipi di dato gestibili da DB2
 
-1. Eliminare CREATE DATABASE e tutta la Index Section
-2. Eliminare i CHECK complessi (subquery)
-3. Usare tipi di dato gestibili da DB2
-
-<aside>
-👉 E’ possibile lasciare il default char(1) per tutti gli attributi non coinvolti nel punto successivo
-
-</aside>
+> 👉 E’ possibile lasciare il default char(1) per tutti gli attributi non coinvolti nel punto successivo
