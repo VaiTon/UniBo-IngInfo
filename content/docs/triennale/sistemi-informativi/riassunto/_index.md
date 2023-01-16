@@ -261,7 +261,7 @@ Per rimuovere un trigger
 DROP TRIGGER NomeTrigger;
 ```
 
-#### Before trigger
+### Before trigger
 
 ```sql
 CREATE [OR REPLACE] TRIGGER trigger_name
@@ -276,7 +276,7 @@ CREATE [OR REPLACE] TRIGGER trigger_name
 	SET col = (query)
 ```
 
-#### After trigger
+### After trigger
 
 ```sql
 CREATE [OR REPLACE] TRIGGER *NomeTrigger*
@@ -297,9 +297,9 @@ CREATE [OR REPLACE] TRIGGER *NomeTrigger*
 		IF (condizione) query_true; ELSE query_false; END IF
 ```
 
-#### Suggerimenti utili
+### Suggerimenti utili
 
-##### Variabili
+#### Variabili
 
 E' possibile dichiarare variabili, da dichiarare preventivamente e a cui assegnare il risultato di una query.
 
