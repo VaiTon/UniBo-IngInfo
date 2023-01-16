@@ -189,9 +189,9 @@ FROM EMPLOYEE
 #### Casting
 
 ```sql
-CAST(**espressione** AS **tipo**) -- prova a castare *espressione* a *tipo*
-CHAR(*stringa, N*) -- restituisce i primi *N* caratteri di *stringa*
-DEC(*numero*, *p*, *q*) -- restituisce numero in formato DEC(**p**, **q**)
+CAST(espressione AS tipo) -- prova a castare espressione a tipo
+CHAR(stringa, N) -- restituisce i primi N caratteri di stringa
+DEC(numero, p, q) -- restituisce numero in formato DEC(p, q)
 INT(numero) -- restituisce la parte intera di numero
 ```
 
