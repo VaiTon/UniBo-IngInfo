@@ -1,3 +1,3 @@
 ---
-title: Ingegneria Informatica - T
+title: Laurea Triennale
 ---
