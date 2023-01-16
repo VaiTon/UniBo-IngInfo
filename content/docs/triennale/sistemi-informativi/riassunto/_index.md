@@ -31,7 +31,7 @@ Modifica lo schema di una relazione, cambiando i nomi di uno o più attributi.
 
 ##### Esempio
 
-{{<katex>}}\rho_{Nome=NomeCognome}(R){{</katex>}}
+{{<katex>}}\rho\_{Nome=NomeCognome}(R){{</katex>}}
 
 #### Divisione [{{<katex>}}\div{{</katex>}}]
 
@@ -295,6 +295,23 @@ CREATE [OR REPLACE] TRIGGER *NomeTrigger*
 		*query_sql*
 	-- oppure
 		IF (condizione) query_true; ELSE query_false; END IF
+```
+
+#### Suggerimenti utili
+
+##### Variabili
+
+E' possibile dichiarare variabili, da dichiarare preventivamente e a cui assegnare il risultato di una query.
+
+```sql
+CREATE OR REPLACE TRIGGER NomeTrigger
+...
+BEGIN ATOMIC
+	DECLARE variabile INT;
+	...
+	SET variabile = (SELECT ...);
+	...
+END;
 ```
 
 ## Conversione Schema → SQL
