@@ -205,6 +205,18 @@ CURRENT TIMESTAMP
 CURRENT SCHEMA
 ```
 
+## Common table expressions (CTE)
+
+```sql
+WITH NomeCTE1(col1, col2, ...) AS (
+	sql_query
+),
+NomeCTE2(col1, col2, ...) AS (
+	sql_query
+)
+SELECT ...
+```
+
 ## View
 
 #### Creare una view
