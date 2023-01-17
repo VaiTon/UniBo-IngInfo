@@ -30,7 +30,7 @@ Serve la [ridenominazione](#ridenominazione) degli attributi.
 - **Schema:** Lo schema dei due operandi.
 - **Relazione:** Le tuple che sono nel primo operando ma non nel secondo.
 
-> **⚠️ ATTENZIONE:**: Gli schemi dei due operandi **devono essere uguali**.
+> **⚠️ ATTENZIONE:** Gli schemi dei due operandi **devono essere uguali**.
 
 #### Ridenominazione [{{<katex>}}\rho{{</katex>}}]
 
