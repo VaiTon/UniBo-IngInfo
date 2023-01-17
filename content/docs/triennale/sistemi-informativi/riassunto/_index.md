@@ -25,6 +25,13 @@ Vuole una lista di attributi e restituisce le tuple con solo gli attributi indic
 
 Serve la [ridenominazione](#ridenominazione) degli attributi.
 
+##### Differenza [{{<katex>}}-{{</katex>}}]
+
+- **Schema:** Lo schema dei due operandi.
+- **Relazione:** Le tuple che sono nel primo operando ma non nel secondo.
+
+> **⚠️ ATTENZIONE:**: Gli schemi dei due operandi **devono essere uguali**.
+
 #### Ridenominazione [{{<katex>}}\rho{{</katex>}}]
 
 Modifica lo schema di una relazione, cambiando i nomi di uno o più attributi.
@@ -340,4 +347,3 @@ END;
 
 - [VaiTon](https://github.com/VaiTon)
 - [xWiimarco](https://github.com/xWiimarco)
-
