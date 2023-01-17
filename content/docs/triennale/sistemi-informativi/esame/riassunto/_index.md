@@ -26,7 +26,7 @@ Vuole una lista di attributi e restituisce le tuple con solo gli attributi indic
 
 Serve la [ridenominazione](#ridenominazione) degli attributi.
 
-##### <a name="differenza"></a> Differenza [{{<katex>}}-{{</katex>}}]
+##### Differenza [{{<katex>}}-{{</katex>}}] {#differenza}
 
 - **Schema:** Lo schema dei due operandi.
 - **Relazione:** Le tuple che sono nel primo operando ma non nel secondo.
@@ -41,7 +41,7 @@ Modifica lo schema di una relazione, cambiando i nomi di uno o più attributi.
 
 {{<katex>}}\rho\_{Nome=NomeCognome}(R){{</katex>}}
 
-#### <a name="divisione"></a> Divisione [{{<katex>}}\div{{</katex>}}]
+#### Divisione [{{<katex>}}\div{{</katex>}}] {#divisione}
 
 - **Schema:** Lo schema di sinistra sottratto dello schema di destra.
 - **Relazione:** Le tuple che moltiplicate per il divisore sono contenute nel dividendo
@@ -343,4 +343,3 @@ END;
    3. Usare tipi di dato gestibili da DB2
 
 > 👉 E’ possibile lasciare il default char(1) per tutti gli attributi non coinvolti nel punto successivo
-
