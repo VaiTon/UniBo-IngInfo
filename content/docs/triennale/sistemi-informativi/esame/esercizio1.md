@@ -1,5 +1,6 @@
 ---
 title: Esercizio 1
+weight: 1
 ---
 
 # Guida per l'esercizio 1

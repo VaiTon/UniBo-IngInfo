@@ -1,5 +1,6 @@
 ---
 title: Esercizio 4
+weight: 4
 ---
 
 # Guida per l'esercizio 4
