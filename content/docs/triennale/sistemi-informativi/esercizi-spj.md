@@ -1,5 +1,6 @@
 ---
 title: Esercizi SPJ
+weight: 3
 ---
 
 # Esercizi Select, Project, Join

@@ -1,9 +1,6 @@
 ---
 title: Esame
+bookCollapseSection: true
+weight: 10
 ---
 
-## Contributi
-
-- [VaiTon](https://github.com/VaiTon)
-- [xWiimarco](https://github.com/xWiimarco)
-- [Simone Elia]() con ["SQL Functions"]({{<ref "altri">}})

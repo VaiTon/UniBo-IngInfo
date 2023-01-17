@@ -5,9 +5,13 @@ weight: 1
 
 # Guida per l'esercizio 1
 
-Qui sotto una tabella delle parole chiavi legate alle operazioni da utilizzare:
+## Parole chiavi e operatori
 
-> ATTENZIONE: Da prendere con le pinze
+{{<hint warning>}}
+⚠️ Da prendere con le pinze
+{{</hint>}}
+
+Qui sotto una tabella delle parole chiavi legate alle operazioni da utilizzare:
 
 | Parole chiavi       | Operazione                                      |
 | ------------------- | ----------------------------------------------- |
@@ -31,5 +35,3 @@ Utilizzando un esempio...
 | Soste +---------------------------+
 +-------+
 ```
-
-

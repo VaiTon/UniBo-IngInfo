@@ -1,5 +1,6 @@
 ---
 title: Algebra relazionale
+weight: 1
 ---
 
 # Algebra relazionale

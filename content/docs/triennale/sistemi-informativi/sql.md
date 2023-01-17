@@ -1,3 +1,7 @@
+---
+title: SQL
+weight: 2
+---
 ## Data Definition Language
 
 Permette di:
