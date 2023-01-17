@@ -25,7 +25,7 @@ Vuole una lista di attributi e restituisce le tuple con solo gli attributi indic
 
 Serve la [ridenominazione](#ridenominazione) degli attributi.
 
-##### Differenza [{{<katex>}}-{{</katex>}}]
+##### <a name="differenza"></a> Differenza [{{<katex>}}-{{</katex>}}]
 
 - **Schema:** Lo schema dei due operandi.
 - **Relazione:** Le tuple che sono nel primo operando ma non nel secondo.
@@ -40,7 +40,7 @@ Modifica lo schema di una relazione, cambiando i nomi di uno o più attributi.
 
 {{<katex>}}\rho\_{Nome=NomeCognome}(R){{</katex>}}
 
-#### Divisione [{{<katex>}}\div{{</katex>}}]
+#### <a name="divisione"></a> Divisione [{{<katex>}}\div{{</katex>}}]
 
 - **Schema:** Lo schema di sinistra sottratto dello schema di destra.
 - **Relazione:** Le tuple che moltiplicate per il divisore sono contenute nel dividendo
