@@ -344,7 +344,3 @@ END;
 
 > 👉 E’ possibile lasciare il default char(1) per tutti gli attributi non coinvolti nel punto successivo
 
-## Contributi
-
-- [VaiTon](https://github.com/VaiTon)
-- [xWiimarco](https://github.com/xWiimarco)
