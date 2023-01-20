@@ -86,7 +86,7 @@ Attenzione al **minore uguale**.
 
 <--->
 
-![](./Screenshot_20230120_193204.png)
+![](./a_sotto_b.png)
 
 {{</columns>}}
 
