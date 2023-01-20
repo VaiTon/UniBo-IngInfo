@@ -4,7 +4,13 @@ bookCollapseSection: true
 weight: 3
 ---
 
-## Contributi
+# Sistemi Informativi T
+
+| Docente | Paolo Ciaccia |
+| ------- | ------------- |
+| Crediti | 9 CFU         |
+
+## Crediti
 
 - [VaiTon](https://github.com/VaiTon)
 - [xWiimarco](https://github.com/xWiimarco)
