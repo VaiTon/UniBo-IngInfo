@@ -30,14 +30,17 @@ Siano \\(X\\) e \\(Y\\) uniformi su \\([0,2]\\), \\(Z=X+Y\\), trovare valore med
 
 ### Definizione classica di probabilità
 
-- Assiomi di kolmogorov
+- Cos'è lo spazio campione?
+- Quali sono gli assiomi di Kolmogorov?
   - Definizione classica di probabilità
-  - Dimostrazione delle proprietà assiomi
+  - Dimostrazione delle proprietà degli assiomi
 - Quando due eventi sono indipendenti?
 - Teorema delle probabilità totali
 - Teorema di Bayes
 
 ### Variabili casuali
+
+- Che cos’è la covarianza?
 
 - Variabili casuali esponenziali
 
@@ -55,19 +58,20 @@ Siano \\(X\\) e \\(Y\\) uniformi su \\([0,2]\\), \\(Z=X+Y\\), trovare valore med
   - Applicazioni e cosa significa
   - Perché la binomiale rientra nel T. del limite centrale
 
+- spilli di Buffon 
 - Disuguaglianza cebycev
 - Disuguaglianza markov
 - Legge grandi numeri
 - Corollario di bernoulli
 
-- variabili casuali doppie
+- Variabili casuali doppie
   - Continue
   - Proprietà
   - Funzione di ripartizione
   - covarianza, che ha senso per delle coppie di variabili
   - Proprietà
   - coefficiente di correlazione
-- quando due variabili x e y sì definiscono indipendenti
+- Quando due variabili x e y sì definiscono indipendenti?
 - processo stocastico di poisson
 - Funzione generatrice di momenti
 - Variabile casuali continue
