@@ -18,7 +18,7 @@ title: Coppie di variabili casuali
 ### Proprietà
 
 1. \\(p(a,b) \in [0,1]\\)
-2. \\(\sum*{k=1}^n \sum*{j=1}^m p(a_k,b_j) = 1\\)
+2. {{<katex>}}\sum_{k=1}^n \sum_{j=1}^m p(a_k,b_j) = 1{{</katex>}}
 
 ## Funzioni di massa di probabilità marginali
 
