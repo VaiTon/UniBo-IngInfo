@@ -1,0 +1,6 @@
+{
+	"KaTeX": {
+		"prefix": "katex",
+		"body": "{{<katex>}}$TM_SELECTED_TEXT$0{{</katex>}}"
+	}
+}
