@@ -24,7 +24,7 @@ title: Coppie di variabili casuali
 
 \\(
 \begin{aligned}
-p_X(a) &= P(X=a) \\\ &= P(X=a, Y \text{qualsiasi}) \\\ &= \sum_{j=1}^m p(a,b_j)
+p_X(a) &= P(X=a) \\\ &= P(X=a, Y \\ \text{qualsiasi}) \\\ &= \sum_{j=1}^m p(a,b_j)
 \end{aligned}
 \\)
 
@@ -32,7 +32,7 @@ p_X(a) &= P(X=a) \\\ &= P(X=a, Y \text{qualsiasi}) \\\ &= \sum_{j=1}^m p(a,b_j)
 
 \\(
 \begin{aligned}
-p_Y(b) &= P(Y=b) \\\ &= P(X \text{qualsias}, Y=b) \\\ &= \sum_{k=1}^n p(a_k,b)
+p_Y(b) &= P(Y=b) \\\ &= P(X \\ \text{qualsiasi}, Y=b) \\\ &= \sum_{k=1}^n p(a_k,b)
 \end{aligned}
 \\)
 
