@@ -11,3 +11,12 @@ BookRepo = 'https://github.com/VaiTon/UniBo-IngInfo'
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[markup.tableOfContents]
+endLevel = 4
+ordered = false
+startLevel = 2
+
+[security.exec]
+allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
+osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+)$']
