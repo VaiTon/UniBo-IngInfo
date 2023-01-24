@@ -14,13 +14,13 @@ p(a):= \text{probabilità che la variabile casuale assuma il valore } a
 
 #### Funzione di ripartizione di probabilità
 
-{{<katex>}}
+{{<katex display>}}
 F(b)=\displaystyle\sum_{a=-\infty}^{b}p(a)
 {{</katex>}}
 
 #### Valore medio
 
-{{<katex>}}
+{{<katex display>}}
 E[X] = \displaystyle\sum_{k=1}^{n} x_k \cdot p(x_k) \quad X \in \{x_1, x_2, \dots, x_n\}
 {{</katex>}}
 
@@ -32,16 +32,15 @@ E[X] = \displaystyle\sum_{k=1}^{n} x_k \cdot p(x_k) \quad X \in \{x_1, x_2, \dot
 \begin{aligned}
 X \sim Be(p), \qquad
 &p:= \text{rappresenta la probabilità che si verifichi l'evento} \\
-&p \in (0,1) \\
+&\quad p \in (0,1) \\
 &q := 1-p
-\end{aligned}
-{{</katex>}}
-<br>
-{{<katex display>}}
-X = \begin{cases}
+\\ \\
+&X = \begin{cases}
 1 & \text{se l'evento si verifica} \\
 0 & \text{se l'evento non si verifica}
 \end{cases}
+
+\end{aligned}
 {{</katex>}}
 
 {{<columns>}}
@@ -147,11 +146,13 @@ Var(X) = npq
 
 #### Riproducibilità della binomiale
 
-{{<katex>}}
+{{<katex display>}}
 \left.\begin{aligned}
-&X \sim B(n,p)\\
-&Y \sim B(m,p)
-\end{aligned}\right\} \text{indipendenti} \Rightarrow X+Y \sim B(n+m,p)
+    X \sim B(n,p)\\
+    Y \sim B(m,p)
+\end{aligned}\right\}
+
+\text{indipendenti} \Rightarrow X+Y \sim B(n+m,p)
 {{</katex>}}
 
 ---
@@ -207,11 +208,12 @@ Var(X) = \lambda
 
 #### Riproducibilità della Poissoniana
 
-{{<katex>}}
+{{<katex display>}}
 \left.\begin{aligned}
     X \sim Po(\lambda) \\
     Y \sim Po(\mu )
-\end{aligned}\right\} \text{indipendenti} \ \Rightarrow X+Y \sim Po(\lambda +\mu)
+\end{aligned}\right\}
+\text{indipendenti} \ \Rightarrow X+Y \sim Po(\lambda +\mu)
 {{</katex>}}
 
 ---
@@ -230,7 +232,7 @@ X \sim G(p), \qquad &p:= \text{rappresenta la probabilità che si verifichi l'ev
 
 #### Funzione di massa di probabilità
 
-{{<katex>}}
+{{<katex display>}}
 p(k) = (1-p)^{k-1} \cdot p
 {{</katex>}}
 
@@ -241,6 +243,7 @@ p(k) = (1-p)^{k-1} \cdot p
 f(a):= \text{densità di probabilità}
 {{</katex>}}
 <br>
+
 **Proprietà:**
 <br>
 - {{<katex>}}
@@ -251,7 +254,7 @@ f(a):= \text{densità di probabilità}
 
 #### Funzione di ripartizione di probabilità
 
-{{<katex>}}
+{{<katex display>}}
 F(b)=\displaystyle\int_{-\infty}^{b}f(a) da
 {{</katex>}}
 
@@ -259,7 +262,7 @@ F(b)=\displaystyle\int_{-\infty}^{b}f(a) da
 
 #### Valore medio
 
-{{<katex>}}
+{{<katex display>}}
 E[X] = \displaystyle\int_{-\infty}^{+\infty} x \cdot f(x) dx
 {{</katex>}}
 
@@ -290,7 +293,7 @@ k = \frac{1}{\beta-\alpha} & \text{se } \alpha \le x \le \beta \\
 
 #### Funzione di ripartizione di probabilità
 
-{{<katex>}}
+{{<katex display>}}
 F(a) = \begin{cases}
 0 & \text{se } a < \alpha \\
 \frac{a-\alpha}{\beta-\alpha} & \text{se } \alpha \le a \le \beta \\
@@ -303,7 +306,7 @@ F(a) = \begin{cases}
 
 #### Valore medio
 
-{{<katex>}}
+{{<katex display>}}
 E[X] = \displaystyle\frac{\alpha+\beta}{2}
 {{</katex>}}
 
@@ -311,7 +314,7 @@ E[X] = \displaystyle\frac{\alpha+\beta}{2}
 
 #### Varianza
 
-{{<katex>}}
+{{<katex display>}}
 Var(X) = \displaystyle\frac{(\beta-\alpha)^2}{12}
 {{</katex>}}
 
@@ -319,7 +322,9 @@ Var(X) = \displaystyle\frac{(\beta-\alpha)^2}{12}
 
 #### Coppie di variabili casuali uniformi
 
-{{<katex>}}
+Siano
+
+{{<katex display>}}
 \left.\begin{aligned}
 &X \sim U(\alpha,\beta) \\
 &Y \sim U(\gamma,\delta)
@@ -328,7 +333,7 @@ Var(X) = \displaystyle\frac{(\beta-\alpha)^2}{12}
 
 ##### Funzione di densità di probabilità congiunta
 
-{{<katex>}}
+{{<katex display>}}
 \underbrace{f(x,y) =f_X(x) \cdot f_Y(y)}_{\text{per l'indip.}}
 = \begin{cases}
 k = \frac{1}{(\beta-\alpha)(\delta-\gamma)} & \text{se }
@@ -352,7 +357,7 @@ P((X,Y) \in \mathcal B) = \displaystyle\frac{\text{Area}(\mathcal B)}{\text{Area
 
 ### Esponenziale
 
-{{<katex>}}
+{{<katex display>}}
 X \sim E(\lambda), \qquad \lambda \in \mathbb R^+
 {{</katex>}}
 
@@ -364,7 +369,7 @@ N.B. Le variabili esponenziali **NON** sono riproducibili.
 
 #### Funzione di densità di probabilità
 
-{{<katex>}}
+{{<katex display>}}
 f(x) = \begin{cases}
 \lambda e^{-\lambda x} & \text{se } x \ge 0 \\
 0 & \text{altrimenti}
@@ -375,7 +380,7 @@ f(x) = \begin{cases}
 
 #### Funzione di ripartizione di probabilità
 
-{{<katex>}}
+{{<katex display>}}
 F(a) = \begin{cases}
 0 & \text{se } a < 0 \\
 1-e^{-\lambda a} & \text{se } a \ge 0
@@ -388,7 +393,7 @@ F(a) = \begin{cases}
 
 #### Valore medio
 
-{{<katex>}}
+{{<katex display>}}
 E[X] = \displaystyle\frac{1}{\lambda}
 {{</katex>}}
 
@@ -396,7 +401,7 @@ E[X] = \displaystyle\frac{1}{\lambda}
 
 #### Varianza
 
-{{<katex>}}
+{{<katex display>}}
 Var(X) = \displaystyle\frac{1}{\lambda^2}
 {{</katex>}}
 
@@ -404,7 +409,7 @@ Var(X) = \displaystyle\frac{1}{\lambda^2}
 
 #### Funzione generatrice dei momenti
 
-{{<katex>}}
+{{<katex display>}}
 \phi(t) = \begin{cases}
 \text{non esiste} & \text{se } t \ge \lambda \\
 \displaystyle \frac{\lambda}{\lambda-t} & \text{se } t < \lambda
@@ -439,5 +444,28 @@ e^{\displaystyle -\frac{(x-\mu)^2}{2\sigma^2}}
 
 #### Funzione di ripartizione di probabilità
 
+{{<katex display>}}
+\begin{aligned}
+F(a) &= \int_{-\infty}^a f(x) dx = \\
+&= \int_{-\infty}^a \frac{1}{\sigma^2\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} dx
+\end{aligned}
+{{</katex>}}
+{{</columns>}}
+
+{{<columns>}}
+
+#### Massima probabilità
+
+{{<katex display>}}
+f(\mu) = \frac{1}{\sigma \sqrt{2\pi}}, \qquad \text{con } \mu = E[X]
+{{</katex>}}
+
+<--->
+
+#### Funzione generatrice dei momenti
+
+{{<katex display>}}
+\phi(t) = e^{\mu t + \frac{t^2}{2} \sigma^2}
+{{</katex>}}
 
 {{</columns>}}
