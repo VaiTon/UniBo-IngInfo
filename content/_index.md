@@ -16,4 +16,4 @@ Per contribuire al sito web puoi aprire una pull request su [GitHub](https://git
 
 - [Telegram](https://t.me/Eyaddo)
 - [Matrix](https://matrix.to/#/@vaiton:matrix.org)
-- [Email UniBo](mailto:eyadlorenzo.issa@studio.unibo.it)
+- [Email](mailto:me@eyad.it.eu.org)
