@@ -1,5 +1,6 @@
 +++
 title = "Tesi di Laurea"
+bookCollapseSection = true
 +++
 
 ## Templates

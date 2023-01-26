@@ -1,5 +1,6 @@
 +++
 title = "Controlli Automatici"
+bookCollapseSection = true
 +++
 
 # Risorse esterne

@@ -1,6 +1,7 @@
----
-title: Matematica Applicata T
----
++++
+title = "Matematica Applicata T"
+bookCollapseSection = true
++++
 
 # Matematica Applicata T
 

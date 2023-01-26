@@ -1,5 +1,6 @@
 +++
 title = "Laboratorio di Amministrazione di Sistemi"
+bookCollapseSection = true
 +++
 
 ## Risorse esterne
