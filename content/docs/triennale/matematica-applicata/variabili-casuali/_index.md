@@ -517,3 +517,69 @@ f(\mu) = \frac{1}{\sigma \sqrt{2\pi}}, \qquad \text{con } \mu = E[X]
 {{</katex>}}
 
 {{</columns>}}
+
+
+### Lognormale
+
+Sia {{<katex>}}X \sim N(\mu,\sigma^2){{</katex>}} con {{<katex>}}\mu \in \mathbb R, \sigma^2 \in \mathbb R^+{{</katex>}}.
+
+{{<katex display>}}
+\begin{aligned}
+&Y =  e^X \ge 0 \\
+&Y \sim \text{Lognormal}(\mu,\sigma^2)
+\end{aligned}
+{{</katex>}}
+
+#### Funzione di densità di probabilità
+
+{{<katex display>}}
+f(a) = \begin{cases}
+    \frac{1}{\displaystyle a \sigma \sqrt{2\pi}} e^{-\frac{(\ln a - \mu)^2}{2\sigma^2}} & \text{se } a > 0 \\
+    0 & \text{altrimenti}
+\end{cases}
+{{</katex>}}
+
+#### Funzione di ripartizione di probabilità
+
+{{<katex display>}}
+\begin{aligned}
+F(a) &= P(Y \le a) = \\
+    &= P(e^X \le a) = \\
+    &= \begin{cases}
+        P(X \le ln(a)) & \text{se } a > 0 \\
+        0 & \text{altrimenti}
+    \end{cases}\\
+    &= \begin{cases}
+        P(\frac{X-\mu}{\sigma} \le \frac{ln(a)-\mu}{\sigma}) & \text{se } a > 0 \\
+        0 & \text{altrimenti}
+    \end{cases}
+    &= \begin{cases}
+        F_z\left(\frac{ln(a)-\mu}{\sigma}\right) & \text{se } a > 0 \\
+        0 & \text{altrimenti}
+    \end{cases}
+\end{aligned}
+{{</katex>}}
+
+{{<columns>}}
+
+#### Valore Medio
+
+{{<katex display>}}
+E[Y] =  e^{\displaystyle \mu + \frac{\sigma^2}{2}}
+{{</katex>}}
+
+<--->
+
+#### Varianza
+
+{{<katex display>}}
+Var(Y) = e^{\displaystyle 2 \mu + \sigma^2} ( e^{\sigma^2}-1 )
+{{</katex>}}
+
+{{</columns>}}
+
+#### Momento secondo
+
+{{<katex display>}}
+E[Y^2] = e^{\displaystyle 2 \mu + 2 \sigma^2}
+{{</katex>}}
