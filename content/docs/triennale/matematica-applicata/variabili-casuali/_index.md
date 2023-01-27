@@ -157,6 +157,54 @@ Var(X) = npq
 
 ---
 
+### Variabile casuale binomiale negativa
+
+Si ripete un esperimento in maniera i.i.d fino ad osservare l'evento A {{<katex>}}k{{</katex>}} volte, dove {{<katex>}}r \in \mathbb{N}^+{{</katex>}}.
+
+{{<katex display>}}
+\begin{aligned}
+    &X \sim NB(r,p) \qquad \text{con} \  p \in (0,1) \\
+    &X \in \{r,r+1,...,+\infty\}
+\end{aligned}
+{{</katex>}}
+
+#### Funzione di massa di probabilità
+
+{{<katex display>}}
+    p(k)=\binom{k-1}{r-1} p^r \cdot (1-p)^{k-r}
+{{</katex>}}
+
+Posso definire la binomiale negativa come una somma di geometriche, ovvero sia
+
+{{<katex display>}}
+    X \sim NB(r,p) \qquad \text{con} \  p \in (0,1)
+{{</katex>}}
+
+allora
+
+{{<katex display>}}
+    X = \sum_{j=1}^{r} Y_j \quad \text{con} \ Y_j \sim G(p) \text{ indipendenti}
+{{</katex>}}
+
+{{<columns>}}
+#### Valor Medio
+
+{{<katex display>}}
+E[X] = \displaystyle \frac{r}{p}
+{{</katex>}}
+
+<--->
+
+#### Varianza
+
+{{<katex display>}}
+Var(X) = \displaystyle \frac{rq}{p^2}
+{{</katex>}}
+
+{{</columns>}}
+
+---
+
 ### Poisson
 
 {{<katex display>}}
