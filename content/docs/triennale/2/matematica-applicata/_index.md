@@ -10,6 +10,9 @@ weight = 4
 | ------- | --------------- |
 | Crediti | 6 CFU           |
 
+## Risorse extra
+- [Anki Cards (in costruzione)](./Matematica%20Applicata%20T.apkg)
+
 ## Crediti
 
 - [VaiTon](https://github.com/VaiTon)

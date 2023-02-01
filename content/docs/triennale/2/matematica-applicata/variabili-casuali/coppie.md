@@ -1,9 +1,6 @@
 ---
 title: Coppie di variabili casuali
 ---
-
-{{<katex>}}{{</katex>}}
-
 # Coppie di variabili casuali discrete
 
 ## Funzione di massa di probabilità congiunta

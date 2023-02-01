@@ -1,8 +1,7 @@
 ---
 titolo: Valore medio
 ---
-
-## Valor medio di una variabile casuale
+# Valor medio di una variabile casuale
 
 Il **valor medio** di una variabile casuale, anche detto **valore
 atteso, media teorica o speranza matematica** è definito in questo
