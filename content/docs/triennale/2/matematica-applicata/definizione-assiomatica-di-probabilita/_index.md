@@ -1,5 +1,6 @@
 ---
 title: Definizione assiomatica di probabilità
+weight: 1
 ---
 
 {{<katex>}}{{</katex>}}

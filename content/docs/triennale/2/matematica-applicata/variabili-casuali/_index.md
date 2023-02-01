@@ -1,6 +1,8 @@
 ---
 title: Variabili casuali
 tocLevels: 5
+weight: 2
+bookCollapseSection: true
 ---
 
 # Schema riassuntivo dei modelli di variabile casuale

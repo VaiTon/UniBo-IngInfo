@@ -1,6 +1,7 @@
 +++
 title = "Matematica Applicata T"
 bookCollapseSection = true
+weight = 4
 +++
 
 # Matematica Applicata T
