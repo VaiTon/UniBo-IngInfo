@@ -14,6 +14,8 @@ I contenuti di questo sito web, tranne dove diversamente specificato, sono rilas
 
 Per contribuire al sito web puoi aprire una pull request su [GitHub](https://github.com/VaiTon/UniBo-IngInfo), oppure contattarmi su:
 
+- [@vaiton:matrix.org](https://matrix.to/#/@vaiton:matrix.org)
+- [me@eyad.it.eu.org](mailto:me@eyad.it.eu.org)
 - [Telegram](https://t.me/Eyaddo)
-- [Matrix](https://matrix.to/#/@vaiton:matrix.org)
-- [Email](mailto:me@eyad.it.eu.org)
+
+esattamente in quest'ordine di preferenza.
