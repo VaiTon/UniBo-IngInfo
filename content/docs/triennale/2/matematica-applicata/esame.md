@@ -26,6 +26,14 @@ In generale, è sempre meglio studiare tutto il materiale che viene trattato dur
 Siano \\(X\\) e \\(Y\\) uniformi su \\([0,2]\\), \\(Z=X+Y\\), trovare valore medio, varianza, funzione di ripartizione e funzione di densità.
 {{< /hint >}}
 
+### Esercizio 2
+
+{{<hint info>}}
+Sia \\(X\\) una variabile casuale con funzione di densità \\(f_X(x)=c\cdot x\\), trovare \\(c\\), \\(E[X]\\).
+
+Sia poi \\(Y = X^2\\), trovare \\(f_Y(y)\\), \\(E[Y]\\).
+{{</hint>}}
+
 ## Domande di teoria
 
 ### Definizione classica di probabilità
@@ -51,19 +59,11 @@ Siano \\(X\\) e \\(Y\\) uniformi su \\([0,2]\\), \\(Z=X+Y\\), trovare valore med
 - Variabili casuali di Poisson
   - Vista come limite della binomiale
 - Variabile casuale gaussiana
-
-- Teorema del Limite Centrale
-
-  - Dimostrazione
-  - Applicazioni e cosa significa
-  - Perché la binomiale rientra nel T. del limite centrale
-
-- spilli di Buffon 
-- Disuguaglianza cebycev
-- Disuguaglianza markov
-- Legge grandi numeri
-- Corollario di bernoulli
-
+  - Funzione di densità
+  - Funzione generatrice dei momenti
+- Distribuzione chi quadro
+  - Definizione
+  - Media e varianza a partire dalla funzione generatrice dei momenti della gaussiana
 - Variabili casuali doppie
   - Continue
   - Proprietà
@@ -74,6 +74,23 @@ Siano \\(X\\) e \\(Y\\) uniformi su \\([0,2]\\), \\(Z=X+Y\\), trovare valore med
 - Quando due variabili x e y sì definiscono indipendenti?
 - processo stocastico di poisson
 - Funzione generatrice di momenti
-- Variabile casuali continue
-  - Funzione di una variabile casuale
-- Vc discrete
+- Funzione di una variabile casuale
+- Funzioni di due variabili casuali
+  - Funzione di convoluzione
+
+### Legge dei grandi numeri
+
+- Disuguaglianza markov
+- Disuguaglianza cebycev
+- Legge grandi numeri
+- Spilli di Buffon 
+- Corollario di bernoulli
+
+### Teorema del limite centrale
+
+- Teorema del Limite Centrale
+  - Dimostrazione
+  - Applicazioni e cosa significa
+  - Perché la binomiale rientra nel T. del limite centrale?
+
+
