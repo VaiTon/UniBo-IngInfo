@@ -1,4 +1,4 @@
 ## Libri
 
-- Analisi matematica 1 - C. Canuto, A. Tabacco | [via Anna's Archive](https://it.annas-archive.org/md5/5205fb1e8edbc6ac96986a8fc5766f07)
-- Esercitazioni di Analisi 1 - M. Bramanti | [via Anna's Archive](https://it.annas-archive.org/md5/4eee35f4401d2e41bb2f77884ef64c84)
+- Analisi matematica 1 - C. Canuto, A. Tabacco | [IPFS](https://ipfsgatewaychecker.pages.dev/ipfs/bafykbzacebkxq5hplx7eygxbjo4qutlbh52jkmz36ls72zu62mwyuf4q5pwqe)
+- Esercitazioni di Analisi 1 - M. Bramanti | [IPFS](https://ipfsgatewaychecker.pages.dev/ipfs/bafykbzacea4zw3o2ofjiiz4bl6qerujvqcvxrtbxosfmhkopclt5wyre7xrts)
