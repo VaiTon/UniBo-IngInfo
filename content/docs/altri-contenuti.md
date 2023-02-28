@@ -10,3 +10,7 @@ title: Progetti simili
 
 - ### [**tkanon.ninja**](https://tkanon.ninja/Uni/OLD/LAUREA_INGEGNERIA_INFORMATICA/)
 
+- ### [**csunibo**](https://csunibo.github.io/)
+
+    Creato per gli studenti del corso di Informatica a Unibo, il progetto dispone di un repo per ogni materia.
+
