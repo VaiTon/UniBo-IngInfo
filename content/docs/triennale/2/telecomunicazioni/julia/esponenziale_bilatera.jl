@@ -1,6 +1,10 @@
 ### A Pluto.jl notebook ###
 # v0.19.22
 
+#> [frontmatter]
+#> title = "Esponenziale bilatera"
+#> date = "2023-03-02"
+
 using Markdown
 using InteractiveUtils
 
