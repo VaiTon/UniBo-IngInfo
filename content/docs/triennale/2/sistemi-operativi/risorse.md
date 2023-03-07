@@ -3,7 +3,5 @@ title = "Risorse"
 +++
 
 # Risorse esterne
-
-- [Sistemi Operativi QA - Karina Chichifoi](https://github.com/TryKatChup/SistemiOperativi_QA)
-- [Template esame - Karina Chichifoi](https://github.com/TryKatChup/SistemiOperativi_Template)
-
+- [Sistemi Operativi QA](https://raw.githubusercontent.com/TryKatChup/SistemiOperativi_QA/master/Sistemi-Operativi-QA.pdf) - Karina Chichifoi ([GitHub](https://github.com/TryKatChup/SistemiOperativi_QA))
+- [Template esame](https://github.com/TryKatChup/SistemiOperativi_Template) - Karina Chichifoi
