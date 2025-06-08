@@ -1,0 +1,6 @@
+[book]
+language = "it"
+title = "Pillole di Ingegneria Informatica"
+authors = ["VaiTon"]
+
+[preprocessor.callouts]
