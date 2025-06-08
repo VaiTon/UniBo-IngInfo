@@ -22,8 +22,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.109.0
 
     steps:
       - name: Setup Pages
@@ -44,9 +42,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-
-      - name: Setup Hugo modules
-        run: hugo mod get -u
 
       - name: Build
         run: mdbook build
